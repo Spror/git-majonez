@@ -1,0 +1,31 @@
+mkdir git-majonez
+cd git-majonez/
+git init
+touch main.cpp
+code main.cpp 
+git status
+git add .
+git commit -m"Initial commit"
+git status
+git diff
+git add .
+git commit -m"Farewell changed"
+git remote add origin git@github.com:Spror/git-majonez.git
+git push -u origin master
+git checkout -b cs
+git log
+git reset fdb5cefaac169167d0c1ca8806282f2afb53cc3f
+git log
+git status
+git add .
+git commit -m"Greetings"
+git push origin cs
+git checkout master 
+git merge cs
+git status
+git add .
+git commit 
+git log
+touch history.txt
+code history.txt 
+history
